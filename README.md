@@ -32,7 +32,7 @@ Digicrafts is an avid supporter of open source software. Our open source license
 
 To get started, just download javascript file dc.galerie.pkg.min.js and css file dc.galerie.css. Place in your project directory. In the html, includes the javascript library and css in the header.
 
-```
+```js
 <link rel="stylesheet" type="text/css" href="dc.galerie.css" />
 <script src="dc.galerie.pkg.min.js"></script>
 ```
@@ -41,7 +41,7 @@ To get started, just download javascript file dc.galerie.pkg.min.js and css file
 
 You can initialize a galerie instance in HTML without any javascript. Simply add *dc-galerie* to the class of the container element. The gallery will be start after the page is loaded.
 
-```
+```html
 <div id="GALLERY_ID" class="dc-galerie"
         style="width:500px;height:400px"
         data-setting-thumbnailSize="140">
@@ -63,7 +63,7 @@ You can initialize a galerie instance in HTML without any javascript. Simply add
 
 If you rather want to initialize the gallery manually. You can use javascript to initialize a gallery. First, add an id attribute in the container element. Please specify the width/height of the container, since the gallery dimension will depends on it.
 
-```
+```html
 <div id="PLACEMENT_ID" style="width:500px;height:400px" ></div>
 ```
 
@@ -71,7 +71,7 @@ The gallery is initiallize by the method dc.galerie(selector, options). The meth
 
 Add the following script in header to initialize the gallery. You can specify the array data for building the gallery with the "src" option.
 
-```
+```js
 <script>
 dc.asyncInit(function(){
     // Create a gallery
