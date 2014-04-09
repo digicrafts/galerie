@@ -1,5 +1,4 @@
 #galerie
-=======
 
 See [html5components.com](http://www.html5components.com/products/galerie) for complete docs.
 
@@ -16,7 +15,6 @@ Galerie is a HTML5 component which allow you to build gallery in most easy way. 
 * *Compatible Browsers:* IE9, IE10, IE11, Firefox, Safari, Mobile Safari, Opera, Chrome, Silk
 
 #Licensing
-=========
 
 ##Commercial license
 
@@ -31,7 +29,6 @@ Digicrafts is an avid supporter of open source software. Our open source license
 [GPL v3 License](http://choosealicense.com/licenses/gpl-v3/)
 
 #Install
-=========
 
 To get started, just download javascript file dc.galerie.pkg.min.js and css file dc.galerie.css. Place in your project directory. In the html, includes the javascript library and css in the header.
 
@@ -41,7 +38,6 @@ To get started, just download javascript file dc.galerie.pkg.min.js and css file
 ```
 
 #Initialize with HTML
-=========
 
 You can initialize a galerie instance in HTML without any javascript. Simply add *dc-galerie* to the class of the container element. The gallery will be start after the page is loaded.
 
@@ -64,7 +60,6 @@ You can initialize a galerie instance in HTML without any javascript. Simply add
 ```
 
 #Initialize with Javascript
-=========
 
 If you rather want to initialize the gallery manually. You can use javascript to initialize a gallery. First, add an id attribute in the container element. Please specify the width/height of the container, since the gallery dimension will depends on it.
 
@@ -103,7 +98,6 @@ dc.asyncInit(function(){
 ```
 
 #Getting Support
-=========
 
 Visit [html5components.com](http://www.html5components.com/products/galerie) for getting support.
 
