@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright (c) 2014 DIGICRAFTS. All Right Reserved.
+  ~ This software is the confidential and proprietary information of
+  ~ DIGICRAFTS. ("Confidential Information").  You shall not
+  ~ disclose such Confidential Information and shall use it only in
+  ~ accordance with the terms of the license agreement you entered into
+  ~ with DIGICRAFTS.
+  ~
+  ~ http://www.digicrafts.com.hk
+  -->
+
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="none" />
+
+    <link rel="stylesheet" type="text/css" href="../dc.galerie.css" />
+    <script src="../dc.galerie.pkg.min.js" ></script>
+
+    <script>
+        dc.asyncInit(function(){
+            // Create a gallery
+            var gallery=dc.galerie("#demo",{
+                thumbnailSize:100,
+                thumbnailTitleEnabled:true,
+                src:[
+                    {
+                        "src":"media/large.png",
+                        "thumbnail":"media/thumb.png",
+                        "title":"Title",
+                        "description":"Description"
+                    },
+                    {
+                        "src":"media/large-v.png",
+                        "thumbnail":"media/thumb-v.png",
+                        "title":"Title",
+                        "description":"Description"
+                    },                    {
+                        "src":"media/large.png",
+                        "thumbnail":"media/thumb.png",
+                        "title":"Title",
+                        "description":"Description"
+                    },
+                    {
+                        "src":"media/large-v.png",
+                        "thumbnail":"media/thumb-v.png",
+                        "title":"Title",
+                        "description":"Description"
+                    },
+                    {
+                        "src":"media/large.png",
+                        "thumbnail":"media/thumb.png",
+                        "title":"Title",
+                        "description":"Description"
+                    },
+                    {
+                        "src":"media/large-v.png",
+                        "thumbnail":"media/thumb-v.png",
+                        "title":"Title",
+                        "description":"Description"
+                    }
+
+                ]
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div id="demo" style="width: 400px; height: 400px"></div>
+
+</body>
+</html>
