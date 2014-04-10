@@ -21,6 +21,7 @@ Galerie is a HTML5 component which allow you to build gallery in most easy way. 
 Galerie may be used in commercial projects and applications with the one-time purchase of a commercial license.
 
 [Read more about commercial licensing.](http://www.html5components.com/license)
+[Purchasing commercial licensing.](http://www.html5components.com/products/galerie)
 
 ##Non-commercial license
 
